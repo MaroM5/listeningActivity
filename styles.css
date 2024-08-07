@@ -1,0 +1,102 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1e20a7;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+h2{
+    color: #ffffff;
+}
+
+h5{
+    color: #ffffff;
+}
+
+#track-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#album-art {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#track-name {
+    font-size: 24px;
+    margin: 10px 0;
+    color:#ffffff;
+}
+
+#artist-name {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+#album-name {
+    font-size: 16px;
+    color: #ffffffca;
+}
+
+#recent-tracks {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.track {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+.track img {
+    width: 64px;
+    height: 64px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.track-info {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1DB954;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1ed760;
+}
+
+button:focus {
+    outline: none;
+}
