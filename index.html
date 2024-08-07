@@ -3,22 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listening Activity</title>
+    <title>Spotify Now Playing and History</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Maro</h1>
+    <h1>Maro</h1>
         <h2>Currently playing on Spotify</h2>
         <h5>(Moy evgale thn pisth ayth h malakia :) )</h5>
         <div id="track-info">
-            <p id="track-name">Track Name</p>
-            <p id="artist-name">Artist Name</p>
-            <p id="album-name">Album Name</p>
-            <img id="album-art" src="" alt="Album Art">
-        </div>
-        <button id="refresh-button">Refresh</button>
+    <div id="track-info">
+        <img id="album-art" src="" alt="Album Art" />
+        <h2 id="track-name"></h2>
+        <h3 id="artist-name"></h3>
+        <p id="album-name"></p>
     </div>
+
+    <h2>Recently Played</h2>
+    <div id="recent-tracks"></div>
+
+    <button id="refresh-button">Refresh</button>
+
     <script src="script.js"></script>
 </body>
 </html>
